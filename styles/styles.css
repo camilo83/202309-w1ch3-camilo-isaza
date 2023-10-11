@@ -1,0 +1,79 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+header {
+  background-color: cornflowerblue;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 3px;
+}
+
+main {
+  height: 60%;
+}
+
+footer {
+  background-color: cornflowerblue;
+  height: 20%;
+}
+
+footer img {
+  height: 60px;
+  width: auto;
+  text-align: center;
+}
+
+.summary {
+  background-color: sandybrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.summary.span {
+}
+
+.market_list {
+  background-color: burlywood;
+}
+
+p {
+  margin-bottom: 0;
+  padding: 16px;
+}
+
+.line {
+  border: 1px solid purple;
+  margin-top: 10px;
+}
+
+.market_list div:nth-child(1) label,
+.market_list div:nth-child(3) label {
+  text-decoration: line-through;
+}
+
+.market_list div:nth-child(n) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary :nth-child(2) {
+  font-size: 100%;
+}
