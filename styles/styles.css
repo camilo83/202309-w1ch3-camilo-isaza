@@ -1,6 +1,7 @@
 .container {
   margin: 0 auto;
   text-align: center;
+  width: 50%;
 }
 
 h1 {
@@ -46,10 +47,8 @@ footer img {
   padding: 5px;
 }
 
-.summary.span {
-}
-
-.market_list {
+.market_list,
+.edit_article {
   background-color: burlywood;
 }
 
@@ -63,8 +62,7 @@ p {
   margin-top: 10px;
 }
 
-.market_list div:nth-child(1) label,
-.market_list div:nth-child(3) label {
+.market_list > div:nth-child(odd) label {
   text-decoration: line-through;
 }
 
@@ -76,4 +74,19 @@ p {
 
 .summary :nth-child(2) {
   font-size: 100%;
+}
+
+h2 {
+  display: flex;
+  margin-left: 20px;
+}
+
+form * {
+  margin: 10px;
+  display: flex;
+}
+
+button {
+  font-size: 20px;
+  margin-bottom: 10px;
 }

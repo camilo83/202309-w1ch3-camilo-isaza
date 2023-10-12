@@ -19,51 +19,41 @@
         <a href="">Acerca de</a>
       </nav>
     </header>
-    <main>
+    <main class="edit_article">
       <section class="summary">
-        <a href="list.html">
-          <img src="./styles/logo_mas.png" alt="Enlace para agregar productos" width="40px">
+        <a href="index.html">
+          <img src="./styles/logo_menos.png" alt="Enlace para agregar productos" width="40px">
         </a>
         <span>2/3 Comprados</span>
       </section>
-      <section class="market_list">
+      <h2>Editar artículo</h2>
+      <form>
         <div>
           <div>
-            <input type="checkbox" name="bread" id="bread">
-            <label for="bread">Pan</label>
+            <label for="name">Nombre</label>
           </div>
           <div>
-            <span>0.75$ &times</span>
+            <input type="text" name="name" id="name" required>
           </div>
         </div>
         <div>
           <div>
-            <input type="checkbox" name="sugar" id="sugar">
-            <label for="sugar">Azucar</label>
+            <label for="price">Precio</label>
           </div>
           <div>
-            <span>&times</span>
+            <input type="text" name="price" id="price" required>
           </div>
         </div>
-        <div>
-          <div>
-            <input type="checkbox" name="milk" id="milk">
-            <label for="milk">Leche</label>
-          </div>
-          <div>
-            <span>1.20$ &times</span>
-          </div>
-        </div>
-        <section class="line">
-          <div></div>
-        </section>
-        <span>1.95 $</span>
-      </section>
+
+        <button type="submit">Modificar</button>
+
+      </form>
     </main>
     <footer>
       <img src="./styles/logo_footer.png.png" alt="logo W3C" width="50%">
     </footer>
   </div>
+
 </body>
 
 </html>
